@@ -1,5 +1,7 @@
 # RAVC 2627
 
+![Autonomous Robotics Club logo](assets/logooo_circlebg.png){ width="220" }
+
 Welcome to the team docs. This site is built from Markdown files in the `docs/` folder of the project repo, so anyone on the team can fix or extend a page with a pull request.
 
 ## Start here

@@ -6,6 +6,8 @@ edit_uri: edit/main/docs/
 
 theme:
   name: material
+  logo: assets/arc_dark.png
+  favicon: assets/logooo_circlebg.png
   features:
     - navigation.sections
     - navigation.tabs
@@ -17,14 +19,19 @@ theme:
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
+      primary: white
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
+      primary: black
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
+
+extra_css:
+  - stylesheets/extra.css
 
 extra:
   social:

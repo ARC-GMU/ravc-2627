@@ -1,0 +1,8 @@
+.md-header__button.md-logo img {
+  height: 1.8rem;
+  width: auto;
+}
+
+[data-md-color-scheme="slate"] .md-logo img {
+  content: url("../assets/arc_light.png");
+}
