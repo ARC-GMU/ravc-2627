@@ -1,27 +1,5 @@
 # Project overview
 
-## Mission
+RAVC 2627 is the Autonomous Robotics Club's entry in the 2026-27 Raytheon Autonomous Vehicle Competition.
 
-<!-- One paragraph: what the robot does and who/what it is for. -->
-
-## Requirements
-
-| ID | Requirement | Priority | Verified by |
-|----|-------------|----------|-------------|
-| R1 | | Must | |
-| R2 | | Should | |
-
-## System architecture
-
-```mermaid
-flowchart LR
-    Sensors --> Perception --> Planning --> Control --> Actuators
-    Power --> Sensors
-    Power --> Actuators
-```
-
-## Constraints
-
-- Budget:
-- Deadline:
-- Competition / safety rules:
+See the [competition rules](rules.md).
