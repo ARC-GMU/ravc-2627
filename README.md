@@ -3,6 +3,7 @@
 Team docs for the 2026-27 Raytheon Autonomous Vehicle Competition, built with MkDocs Material.
 
 - Site: https://arc-gmu.github.io/ravc-2627/
+- Project board: https://github.com/orgs/ARC-GMU/projects/7
 - Club website: https://gmu.autonomousrobotics.club/
 - Discord: https://discord.gg/zn93yRNZGb
 
