@@ -1,29 +1,32 @@
 # RAVC 2627
 
-Team docs (MkDocs Material, published to GitHub Pages) plus issue/PR templates for planning in GitHub Projects.
+Team docs for the 2026-27 Raytheon Autonomous Vehicle Competition, built with MkDocs Material.
 
-## Setup (about 10 minutes)
-
-1. Create a GitHub repo and push this folder to `main`.
-2. In `mkdocs.yml`, replace `<org-or-user>` and `<repo>` in `site_url` and `repo_url`.
-3. Repo **Settings → Pages → Source: GitHub Actions**. The next push to `main` publishes the site.
-4. Create the Project, labels and milestones:
-   ```bash
-   gh auth refresh -s project
-   scripts/setup-github.sh <owner> <repo> "RAVC 2627"
-   ```
-   Then finish the manual steps the script prints (iteration field, status options, views).
-5. Fill in `docs/project/team.md`, `overview.md` and `milestones.md`.
+- Site: https://arc-gmu.github.io/ravc-2627/
+- Club website: https://gmu.autonomousrobotics.club/
+- Discord: https://discord.gg/zn93yRNZGb
 
 ## Preview locally
 
 ```bash
+python -m venv venv
+source venv/bin/activate
 pip install -r requirements.txt
 mkdocs serve
 ```
+
+## Editing
+
+- Pages are Markdown files under `docs/`.
+- The navbar is set by `nav` in `mkdocs.yml`.
+- Images and PDFs go in `docs/assets/`.
+
+## Publishing
+
+- Every push to `main` builds the site and publishes it to GitHub Pages.
+- Pull requests that touch the docs run `mkdocs build --strict`, so broken links fail the check.
 
 ## Notes
 
 - Material for MkDocs is in maintenance mode (fixes through Nov 2026). The version is pinned, so the site keeps building. Zensical, from the same team, reads `mkdocs.yml`, so migrating later should be straightforward.
 - `mkdocs serve` prints a warning about MkDocs 2.0. It doesn't affect this project: `requirements.txt` keeps MkDocs below 2. Set `NO_MKDOCS_2_WARNING=true` to hide it.
-- PRs that touch `docs/` run `mkdocs build --strict` so broken links fail review.
