@@ -1,5 +1,5 @@
-site_name: Robotics Project Docs
-site_description: Engineering docs for the robotics team
+site_name: RAVC 2627
+site_description: Engineering docs for RAVC 2627
 site_url: https://arc-gmu.github.io/ravc-2627/
 repo_url: https://github.com/ARC-GMU/ravc-2627
 edit_uri: edit/main/docs/
@@ -54,6 +54,7 @@ nav:
   - Home: index.md
   - Project:
       - Overview: project/overview.md
+      - Competition rules: project/rules.md
       - Team & roles: project/team.md
       - How we work: project/workflow.md
       - Milestones: project/milestones.md

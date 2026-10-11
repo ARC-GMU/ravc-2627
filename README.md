@@ -1,4 +1,4 @@
-# Robotics Project
+# RAVC 2627
 
 Team docs (MkDocs Material, published to GitHub Pages) plus issue/PR templates for planning in GitHub Projects.
 
