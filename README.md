@@ -10,7 +10,7 @@ Team docs (MkDocs Material, published to GitHub Pages) plus issue/PR templates f
 4. Create the Project, labels and milestones:
    ```bash
    gh auth refresh -s project
-   scripts/setup-github.sh <owner> <repo> "Robotics Roadmap"
+   scripts/setup-github.sh <owner> <repo> "RAVC 2627"
    ```
    Then finish the manual steps the script prints (iteration field, status options, views).
 5. Fill in `docs/project/team.md`, `overview.md` and `milestones.md`.

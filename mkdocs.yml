@@ -26,6 +26,15 @@ theme:
         icon: material/brightness-4
         name: Switch to light mode
 
+extra:
+  social:
+    - icon: fontawesome/solid/globe
+      link: https://gmu.autonomousrobotics.club/
+      name: Autonomous Robotics Club at GMU
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/zn93yRNZGb
+      name: Discord
+
 markdown_extensions:
   - admonition
   - attr_list
@@ -54,10 +63,3 @@ nav:
   - Software:
       - Overview: software/index.md
       - Dev environment: software/dev-environment.md
-  - Testing:
-      - Test plan: testing/test-plan.md
-  - Decisions:
-      - Index: decisions/index.md
-      - ADR template: decisions/template.md
-  - Meetings:
-      - Template: meetings/template.md

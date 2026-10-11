@@ -11,7 +11,11 @@ Welcome to the team docs. This site is built from Markdown files in the `docs/` 
 | Pick up work, file issues, use the roadmap | [How we work](project/workflow.md) |
 | See the schedule | [Milestones](project/milestones.md) |
 | Set up my laptop | [Dev environment](software/dev-environment.md) |
-| Find out why we chose X | [Decisions](decisions/index.md) |
+
+## Links
+
+- [Club website](https://gmu.autonomousrobotics.club/)
+- [Discord](https://discord.gg/zn93yRNZGb)
 
 !!! tip "Edit any page"
     Use the pencil icon at the top of a page to open it in GitHub's editor, or edit locally and run `mkdocs serve` to preview.

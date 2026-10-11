@@ -17,4 +17,3 @@ Keep one **owner** per subsystem. Owners are the first reviewer for changes in t
 
 - Day-to-day questions:
 - Weekly sync: <!-- day, time, link -->
-- Decisions get written up as an [ADR](../decisions/index.md).

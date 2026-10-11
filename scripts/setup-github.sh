@@ -9,7 +9,7 @@ set -euo pipefail
 
 OWNER="${1:?usage: $0 <owner> <repo> [project title]}"
 REPO="${2:?usage: $0 <owner> <repo> [project title]}"
-TITLE="${3:-Robotics Roadmap}"
+TITLE="${3:-RAVC 2627}"
 
 echo "==> Labels"
 for l in task bug; do
