@@ -1,0 +1,33 @@
+name: Bug / test failure
+description: Something on the robot or in the code isn't behaving
+labels: ["bug"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: How to reproduce
+      description: Hardware revision, firmware/software commit, steps, logs or video links.
+    validations:
+      required: true
+  - type: dropdown
+    id: severity
+    attributes:
+      label: Severity
+      options:
+        - Blocks testing
+        - Degrades performance
+        - Cosmetic / minor
+    validations:
+      required: true

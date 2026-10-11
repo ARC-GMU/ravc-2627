@@ -1,0 +1,44 @@
+name: Task
+description: A unit of work for the roadmap
+labels: ["task"]
+body:
+  - type: textarea
+    id: goal
+    attributes:
+      label: Goal
+      description: What does "done" look like? One or two sentences.
+    validations:
+      required: true
+  - type: dropdown
+    id: subsystem
+    attributes:
+      label: Subsystem
+      options:
+        - Mechanical
+        - Electrical
+        - Firmware
+        - Software / Autonomy
+        - Perception
+        - Testing / Integration
+        - Docs / Admin
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria
+      value: |
+        - [ ]
+        - [ ]
+    validations:
+      required: true
+  - type: textarea
+    id: deps
+    attributes:
+      label: Dependencies / blockers
+      description: Link issues this is blocked by (e.g. "Blocked by #12").
+  - type: textarea
+    id: docs
+    attributes:
+      label: Docs to update
+      description: Which page(s) under docs/ change when this lands?
