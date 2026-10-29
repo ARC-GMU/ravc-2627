@@ -14,6 +14,7 @@ body:
     attributes:
       label: Subsystem
       options:
+        - Team
         - Mechanical
         - Electrical
         - Firmware
