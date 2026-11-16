@@ -64,5 +64,6 @@ nav:
       - Competition rules: project/rules.md
   - Hardware:
       - Overview: hardware/index.md
+      - Drone: hardware/drone.md
   - Software:
       - Overview: software/index.md
